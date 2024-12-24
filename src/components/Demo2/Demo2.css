@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+  flex-wrap: wrap;
+  /* scroll-behavior: smooth;
+  overflow-y: scroll; */
+}
+
+.subcontainer {
+  display: flex;
+  background-color: #0000ff;
+  justify-content: space-around;
+  width: 100%;
+  flex-direction: row;
+}
+
+.item {
+  background-color: aqua;
+  margin-top: 50px;
+  aspect-ratio: 1/1;
+  width: calc(100% / 3 - 20px);
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  object-fit: cover;
+  border: 6px solid aqua;
+}
